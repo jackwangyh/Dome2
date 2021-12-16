@@ -8,15 +8,14 @@
         </classes>
     </test>
 
-    <test name="stuOn">
+    <test name="onlyAll">
         <groups>
             <run>
-                <include name="stu"/>
+             <include name="stu"/>
             </run>
         </groups>
-
         <classes>
-            <class name="com.Classgroupingping"/>
+            <class name="com.Classgrouping"/>
             <class name="com.Classgrouping2"/>
             <class name="com.Classgrouping3"/>
         </classes>
