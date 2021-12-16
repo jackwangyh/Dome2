@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Suite name="test">
+    <test name="login">
+        <classes>
+            <class name="com.Suite.TestSutie"/>
+            <class name="com.Suite/.loginTest"/>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.Suite.TestSutie"/>
+            <class name="com.Suite.PayTest.java"/>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.Suite.TestSutie"/>
+            <class name="com.Dome.IgnorTest.java"/>
+        </classes>
+    </test>
+</Suite>

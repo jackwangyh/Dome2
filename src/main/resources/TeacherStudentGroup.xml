@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Suite name="stuname">
+    <test name="stuAll">
+        <classes>
+            <class name="com.Classgroupingping"/>
+            <class name="com.Classgrouping2"/>
+            <class name="com.Classgrouping3"/>
+        </classes>
+    </test>
+
+    <test name="stuOn">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.Classgroupingping"/>
+            <class name="com.Classgrouping2"/>
+            <class name="com.Classgrouping3"/>
+        </classes>
+    </test>
+
+</Suite>
